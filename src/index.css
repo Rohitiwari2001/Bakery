@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Momo+Signature&display=swap');
+*{
+  font-family: "Bitcount Grid Single", system-ui;
+}
+body{
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  /* background-image:linear-gradient(rgb(0, 0, 0),rgb(0, 0, 0)); */
+  /* background-size: cover;
+  background-position: center; */
+  
+
+}
+.banner{
+  height: 100vh;
+  background-image:linear-gradient(#0000007d,#00000079) ,url('food pic.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  color: black;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.banner h1{
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+.banner p{
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+.btn-order{
+  text-decoration: none;
+  background-color: #1f1f1f;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px; 
+  transition: 1s;
+  width: 150px;
+}
+.btn-order:hover{
+  background-color: #ff6347;
+  color: #000;
+}
+/* .container at-5{ */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* margin-top: 5rem; */
+/* }  */
+
+.card-feature{
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 50px 0px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.icon-features{
+  font-size: 3rem;
+  color: black;
+  margin-bottom: 15px;
+}
+
+.card-feature p{
+  font-size: 1.1rem;
+  color: #555;
+}
+.card-feature:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.call-us{
+  background-color: #f8f9fa;
+  color: black;
+  padding: 40px 0;
+  text-align: center;
+  margin-top: 5rem;
+  border-radius: 30px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);;
+}
+.call-us h5{
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.img-fluid{
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.4s;
+  
+}
+.img-fluid:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-product{
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  
+}
+.card-product {
+  background: rgba(255, 255, 255, 0.15);   /* translucent layer */
+  backdrop-filter: blur(5px);             /* main blur */
+  -webkit-backdrop-filter: blur(10px);     /* Safari support */
+
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.add-to-cart{
+   font-size: 30px;
+   color:#1f1f1f;
+}
+.add-to-cart:hover{
+   color: #000;
+   cursor: pointer;
+}
+.cart-icon-minus{
+   color: #ff0000;
+   font-size: 30px;
+}
+.cart-icon-minus:hover{
+   cursor: pointer;
+}
+.cart-icon-plus{
+ color:#008000;
+   font-size: 30px;  
+}
+.cart-icon-plus:hover{
+   cursor: pointer;
+}
+.cart-icon-delete:hover{
+   cursor: pointer;
+   font-size: 25px;
+}
+.image-cart{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 5px solid #f8f9fa;
+}
